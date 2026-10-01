@@ -1,6 +1,6 @@
 # Sistema de Controle Acadêmico
 
-Sistema acadêmico em **C** para cadastro e gerenciamento de alunos, disciplinas, notas e situação acadêmica.
+Sistema acadêmico em **C** para cadastro e gerenciamento de alunos, notas e situação acadêmica.
 
 Projeto de portfólio desenvolvido para praticar estruturas, funções, vetores, arquivos e organização de código em C.
 

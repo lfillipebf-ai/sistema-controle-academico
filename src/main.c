@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#ifdef _WIN32
+#include <direct.h>
+#else
+#include <sys/stat.h>
+#endif
 
 #define MAX_ALUNOS 100
 #define MAX_DISCIPLINAS 8
@@ -31,6 +36,11 @@ float calcular_media(Aluno *a);
 
 int main(void) {
     int opcao;
+#ifdef _WIN32
+    _mkdir("data");
+#else
+    mkdir("data", 0777);
+#endif
 
     carregar();
 

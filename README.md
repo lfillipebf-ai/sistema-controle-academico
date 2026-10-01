@@ -8,7 +8,6 @@ Projeto de portfólio desenvolvido para praticar estruturas, funções, vetores,
 - Cadastrar alunos
 - Listar alunos
 - Buscar aluno por matrícula
-- Cadastrar disciplinas
 - Registrar notas
 - Calcular média
 - Exibir situação: aprovado, recuperação ou reprovado
@@ -22,7 +21,7 @@ Projeto de portfólio desenvolvido para praticar estruturas, funções, vetores,
 - Vetores
 - Funções e protótipos
 - Manipulação de arquivos
-- CRUD em terminal
+- Operações de cadastro, consulta e remoção em terminal
 
 ## Estrutura
 src/main.c
